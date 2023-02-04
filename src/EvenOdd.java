@@ -1,7 +1,10 @@
-public class  {
+public class EvenOdd {
     public static void main(String[] args) {
-
-        System.out.println("");
+        int numToExamine = 2;
+        if (numToExamine % 2 == 0) {
+            System.out.println("numToExamine is even");
+        } else {
+            System.out.println("numToExamine is odd");
+        }
     }
-
 }
